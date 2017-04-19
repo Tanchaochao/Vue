@@ -1,0 +1,13 @@
+input {
+	border: none;
+	outline: none;
+}
+
+.clearFix:after,
+.clearFix:before {
+	display: table;
+	content: ""
+}
+.clearFix:after {
+	clear: both
+}
